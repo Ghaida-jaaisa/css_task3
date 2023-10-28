@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-origin: padding-box;
+}
+.clr {
+    clear: both;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    background-color: black;
+    height: 70px;
+    
+}   
+.navbar{
+    /*background-color: #ffc800; */
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+
+.logo img {
+    width: 20%;
+    padding-top: 20px;
+    float: left;
+}
+.list li {
+list-style: none;
+float: left;
+padding-top: 5%;
+padding-bottom: ;
+}
+.list ul {
+    margin-left:50% ;
+}
+.list a { 
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    
+}
+.services {
+    background-color: white;
+    text-align: center;
+    overflow:auto;
+    margin:50px 125px; 
+}
+.service { 
+    width: 30%;
+    float: left;
+   
+    margin: 60px 17px;
+    line-height: 20px;
+    /*padding: 0px 10px; */
+}
+.service h3{
+margin-bottom: 25px;
+margin-top: 25px;
+font-weight: 900;
+font-size: x-large;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.service p {
+    color:grey; 
+    font-size: large;
+    
+}
+.services .tittle p {
+color: grey;
+font-style: italic;
+margin-top: 15px;
+font-size: large;
+}
+.services .tittle h2{
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    letter-spacing: 2.5px;
+}
+
+.ports  {
+        text-align: center;
+        overflow:auto;
+        margin:50px 120px; 
+}
+.port img {
+    width: 100%;
+}
+.port { 
+    width: 30%;
+    float: left;
+    margin:15px 18px;
+    
+}
+.details  {
+    background-color: white;
+    height: 75px;
+    margin-top: -5px;
+    padding-top: 30px;
+}
+.details p , 
+.portfolio .tittle p{
+    font-style: italic;
+    color: grey;
+    padding-top: 5px;
+    
+}
+.portfolio .tittle p {
+    font-size: large;
+}
+.portfolio { 
+    background-color: #f8f9fa;
+    text-align: center;
+    padding-top: 70px; 
+}
+.portfolio .tittle  h2 {
+    padding-bottom: 20px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.details h3 { 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
